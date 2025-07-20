@@ -1,0 +1,105 @@
+
+.quicksand-primary {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.font-bold{
+    font-weight: 700;
+}
+.display{
+display: flex;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+    border: none;
+}
+/* navbar section */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    margin: 20px 140px;
+}
+.navbar-left{
+    width: 202px;
+    height: 62px;
+    align-items: center;
+    gap: 11px;
+}
+.navbar-left h3{
+font-size: 2rem;
+color: rgba(17, 17, 17, 1);
+}
+.navbar-middle{
+    list-style: none;
+    gap: 32px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.home{
+    font-size: 1.25rem;
+    color: #FEA301;
+}
+.about{
+    font-size: 1.25rem;
+    color: #01ACFD;
+}
+.facilities{
+    font-size: 1.25rem;
+    color: #05D4DF;
+}
+.admission{
+    font-size: 1.25rem;
+    color: #5D58EF;
+}
+.nav-button{
+    width: 197px;
+    height: 50px;
+}
+/* banner section */
+.banner{
+     width: 1158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 141px;
+    /* margin-right: 141px; */
+}
+.banner-content{
+    gap: 24px;
+}
+.banner-content h2{
+font-weight: 700;
+font-size: 3.5rem;
+color: #111111;
+margin-bottom: 24px;
+}
+.empower{
+    color: #FEA301;
+}
+.vision{
+    color: #01ACFD;
+}
+.banner-content p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #111111;
+}
+.banner-content button{
+    background-color: #111111;
+}
+.banner-img img{
+    width: 100%;
+}
