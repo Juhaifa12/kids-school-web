@@ -111,3 +111,109 @@ margin-bottom: 24px;
 .banner-img img{
     width: 100%;
 }
+/* standard curriculum */
+.curriculum{
+    background-image: url(../assets/bg.png);
+}
+.curriculum h3{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 60px;
+}
+.curriculum-card{
+    text-align: center;
+    gap: 28.29px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.curriculum-header{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+    text-align: center;
+}
+.curriculum-text{
+    font-weight: 500;
+    font-size: 0.94rem;
+    color: #808080;
+    text-align: center;
+}
+.card-1{
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, #FFFFFF 100%);
+    padding: 52.82px 40.67px 58.48px 40.88px;
+}
+.card-1a{
+    text-decoration: none;
+    color: #64C8FF;
+    font-weight: 700;
+    font-size: 0.94rem;
+}
+.card-2{
+    border-radius: 18.86px;
+    border: 1px solid #FFF4DC;
+    padding: 52.82px 40.67px 58.48px 40.88px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg, #FFF4DC 0%, #FFFFFF 100% );
+}
+.card-2a{
+    color: #F0AA00;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.94rem;
+}
+.card-3{
+    border-radius: 18.86px;
+    border: 1px solid #F2E8FF;
+    padding: 52.82px 40.67px 58.48px 40.88px;
+    box-shadow: 0 0 28.3px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180deg, #F2E8FF 0%, #FFFFFF 100% );
+}
+.card-3a{
+color: #8700FF;
+text-decoration: none;
+font-weight: 700;
+font-size: 0.94rem;
+}
+.arrow-button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.circle-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FEA301;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: solid #FFFFFF;
+    border-width: 0 4px 4px 0;
+    padding: 3px;
+}
+.left{
+    transform: rotate(135deg);
+}
+.right{
+    transform: rotate(-45deg);
+}
+.circle-btn:hover, .circle-btn:focus-visible{
+    background: #ffcf4c;
+    box-shadow: 0 6px 24px rgba(255,186,22,0.35),0 2px 8px rgba(0,0,0,0.10);
+    transform: translateY(-3px) scale(1.06);
+
+}
