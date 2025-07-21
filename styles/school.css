@@ -12,7 +12,7 @@
 .display{
 display: flex;
 }
-header{
+.body{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -27,7 +27,8 @@ header{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    width: 1160px;
+    width: 100%;
+    max-width: 1160px;
     margin: 20px 140px;
 }
 .navbar-left{
@@ -67,9 +68,13 @@ color: rgba(17, 17, 17, 1);
     width: 197px;
     height: 50px;
 }
+.hamburger-menu{
+    display: none;
+}
 /* banner section */
 .banner{
-     width: 1158px;
+    max-width: 1158px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +90,9 @@ font-weight: 700;
 font-size: 3.5rem;
 color: #111111;
 margin-bottom: 24px;
+}
+.break{
+    display: none;
 }
 .empower{
     color: #FEA301;
