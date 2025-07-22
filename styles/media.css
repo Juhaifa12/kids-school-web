@@ -54,5 +54,87 @@
         height: 42px;
         padding: 6px 24px;
     }
+    /* curriculum section */
+    .arrow-button{
+        display: none;
+    }
+    .curriculum h3{
+        font-size: 1.6rem;
+    }
+    .curriculum-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px 16.5px;
+    }
+
+    /* our stories */
+    .article-left{
+        display: none;
+    }
+    .media{
+        display: block;
+    }
+    .story{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 11.31px;
+        margin: 0 auto;
+    }
+    .our-stories{
+        max-width: 390px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .article-1, .article-2,.article-3,.article-4,.media{
+        width: 173.36px;
+        height: 179.59px;
+    }
+    .article-1 p,.article-2 p,.article-3 p,.article-4 p,.media p{
+        font-size: 0.57rem;
+    }
+    .date-pill-1, .date-pill-2, .date-pill-3, .date-pill-4{
+        font-size: 0.57rem;
+        width: 81px;
+        height: 10px;
+        padding: 5.71px 11.24px;
+    }
+    .article-down{
+        gap: 11px;
+    }
+    /* footer-section */
+    
+    .footer-section{
+        width: 390px;
+        height: 642px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .footer-title{
+        font-size: 2.25rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    .footer-left{
+        margin: 0 auto;
+    }
+    .footer-middle{
+        margin-top: 32px;
+    }
+    .foot-right-head{
+        margin-top: 0;
+    }
+    .footer-right{
+        margin-left: 35px;
+        margin-bottom: 37px;
+    }
+    .footer-logo{
+        width: 161px;
+        height: 33px;
+    }
+    
 
 }
